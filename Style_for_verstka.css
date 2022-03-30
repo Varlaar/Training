@@ -1,0 +1,152 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/*-------------------------CSS------------------------------*/
+
+
+body {
+	background: #78F7FF;
+	font-family: sans-serif;
+}
+
+.container {
+	background-color: #fff;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.column{
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.column_background-color{
+	background-color: rgba(255, 63, 123, 1);
+}
+
+.logo{
+	font-size: 28px;
+	padding: 60px 0 60px 90px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.img{
+	width: 623px;
+	height: 730px;
+}
+
+
+.header{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	width: 590px;
+	height: 70px;
+	padding: 49px 90px 178px 60px;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	font-size: 28px;
+}
+
+.menu__item{
+	list-style-type: none;
+	margin-right: 51px;
+}
+
+.menu__link{
+	text-decoration: none;
+	color: #3A3A3A;
+	font-weight: 300;
+}
+
+.menu__link_active{
+	font-weight: bold;
+}
+
+.header__button{
+	width: 160px;
+	cursor: pointer;
+	border: 1px solid #FF437D;
+	border-radius: 20px;
+	font-size: 28px;
+	font-weight: 500;
+	background: transparent;
+	color: #E52963;
+}
+
+.main{
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-end;
+	text-align: end;
+	padding: 0 90px 0 45px;
+}
+
+.main__title{
+}
+
+.main__title_font{
+	font-size: 64px;
+	font-weight: 700;
+}
+
+.main__subtitle_font{
+	font-size: 28px;
+	font-weight: light;
+	padding: 22px 0 0 0 ;
+	color: #6B6B6B;
+}
+
+.main__button{
+	border-radius: 20px;
+	cursor: pointer;
+	background-color: #FF3F7B;
+	width: 280px;
+	padding: 19px 83px 19px 84px;
+	margin: 30px 0px 128px 0;
+}
+
+.main__button_font{
+	font-size: 28px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.footer{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 90px 50px 0;
+}
+
+.footer__text{
+	font-size: 28px;
+}
+
+.footer__link{
+	text-decoration: none;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	color: #6B6B6B;
+	font-size: 28px;
+	font-weight: 300;
+
+}
+
+.footer__img{
+	width: 10.5px;
+	height: 21px;
+	margin-left: 20px;
+}
